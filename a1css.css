@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+	
+    background-image: url("sand.jpg");
+background-size: cover;
+
+}
+
+
+nav {text-align: center;
+	align-content: center; 
+	font-family: 'Roboto' ;
+	font-size: 16px; 
+}
+
+
+a {font-family: 'Roboto' ;
+
+}
+
+form {font-family: "Roboto";
+
+}
+
+.toppagehead { font-family: 'Roboto';
+	font-size: 42px; }
+
+.infohead1 {
+	font-family: "Roboto";
+	font-size: 25px;
+	text-shadow: 0px 0px 1px #FFFFFF;
+}
+
+.basictext {
+	font-family: "Roboto"
+}
+
+.navbox ul {
+	list-style-type: none;
+	height: auto;
+	width: auto;
+
+}
+
+
+.navbox li {
+	display: inline;
+	margin-right: 152px;
+	margin-left: 1px;
+}
+
+
+.navbox {
+	text-align: center;
+	display: block;
+	background-color: #F8CD33;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.centerbox {
+	width: 700px;
+	background: #3B77E0;
+	margin: auto;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius: 1px;
+}
+
+.mapbox {padding: 10px}
