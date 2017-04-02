@@ -8,6 +8,8 @@ background-size: cover;
 }
 
 
+
+
 nav {text-align: center;
 	align-content: center; 
 	font-family: 'Roboto' ;
@@ -15,16 +17,38 @@ nav {text-align: center;
 }
 
 
-a {font-family: 'Roboto' ;
-
+a {
+	font-family: 'Roboto';
+	text-decoration: none;
 }
 
 form {font-family: "Roboto";
 
 }
 
+table {
+	font-family: "Roboto";
+	font-weight: normal;
+	font-size: medium;
+}
+
+tbody { font-family: "roboto";
+
+}
+
 .toppagehead { font-family: 'Roboto';
-	font-size: 42px; }
+	font-size: 40px; }
+
+.toppagebox {
+	background: #FDFDFD;
+	width: 600px;
+}
+
+.volleyballbox {
+	width: 68px;
+	height: 0px;
+
+}
 
 .infohead1 {
 	font-family: "Roboto";
@@ -40,22 +64,27 @@ form {font-family: "Roboto";
 	list-style-type: none;
 	height: auto;
 	width: auto;
-
+	text-align: center;
+	align-content: center;
+	align-self: center
 }
 
 
 .navbox li {
 	display: inline;
-	margin-right: 152px;
+	margin-right: 130px;
 	margin-left: 1px;
+	text-align: center;
+	align-content: center;
 }
 
 
 .navbox {
-	text-align: center;
 	display: block;
 	background-color: #F8CD33;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	text-align: center;
+	align-content: center;
 }
 
 
