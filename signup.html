@@ -2,26 +2,30 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Volleyball - Signup</title>
+<title>Volleyball - Home</title>
 <link href="a1css.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
 
-<h class="toppagehead" > Beach Volleyball </h>
-
+<div class="toppagebox">
+<h class="toppagehead" > &nbsp; &nbsp; &nbsp; &nbsp;Beach Volleyball</h>
+<div class="volleyballbox"> <img src="vector_volleyball.png" width="68" height="67" alt=""/></div>
+</div>
+<br> <br> <br>
 <div class="navbox">
   <nav>
-   <ul> 
+    <ul> 
   <li> <a href="home.html">Home </a> </li>  
   <li> <a href="leaderboard.html">Leaderboard</a> </li> 
   <li> <a href="announcements.html">Announcements</a> </li>
   <li> <a href="contacts.html">Contacts</a> </li> 
   <li> <a href="signup.html">Sign Up</a> </li></ul>
   </nav>
-  
- </div>
+</div>
+
+
  <div class="centerbox" >
 
 <p class= "infohead1">
@@ -43,13 +47,13 @@ Sign Up Form
 	 </p>
 <form> 
  First name:<br>
-  <input type="text" name="firstname" value=""><br>
+  <input class="textentry" type="text" name="firstname" value=""><br>
   Last name:<br>
-  <input type="text" name="lastname" value=""><br>
+  <input class="textentry" type="text" name="lastname" value=""><br>
   Phone Number: <br>
-  <input type="text" name="phonenumber" value=""> <br>
+  <input class="textentry" type="text" name="phonenumber" value=""> <br>
   Contact E-mail: <br>
-  <input type="email" name="email"> <br> <br>
+  <input class="textentry" type="email" name="email"> <br> <br>
   
   Competion Day <br>
   <input type="radio" name="day" value="Monday" checked> Monday<br>
@@ -60,8 +64,8 @@ Sign Up Form
   <input type="radio" name="day" value="Saturday"> Saturday<br> <br>
   
   Competion Time <br>
-  <input type="radio" name="day" value="Afternoon" checked> Afternoon<br>
-  <input type="radio" name="day" value="Evening"> Evening<br> <br>
+  <input type="radio" name="time" value="Afternoon" checked> Afternoon<br>
+  <input type="radio" name="time" value="Evening"> Evening<br> <br>
   
   Have you read and agree with our playing guidelines? <br>
   <input type="checkbox" name="vehicle1" value="Bike"> Agree<br>

@@ -36,17 +36,42 @@ tbody { font-family: "roboto";
 
 }
 
-.toppagehead { font-family: 'Roboto';
-	font-size: 40px; }
+.textentry input {
+	
+	position: 100%
+	
+	
+	
+}
+
+.toppagehead {
+	font-family: 'Roboto';
+	font-size: 40px;
+	top: -28px;
+	
+}
 
 .toppagebox {
 	background: #FDFDFD;
 	width: 600px;
+	float: left;
+}
+
+.toppagebox img { 
+position: relative;
+	top: 12px
 }
 
 .volleyballbox {
-	width: 68px;
-	height: 0px;
+	width: 1px;
+	height: 1px;
+	position: relative;
+
+}
+
+.volleyballbox img { 
+
+	top: -56px;
 
 }
 
@@ -54,10 +79,12 @@ tbody { font-family: "roboto";
 	font-family: "Roboto";
 	font-size: 25px;
 	text-shadow: 0px 0px 1px #FFFFFF;
+	padding-top: 3px;
 }
 
 .basictext {
-	font-family: "Roboto"
+	font-family: "Roboto";
+	margin-bottom: 0px;
 }
 
 .navbox ul {
