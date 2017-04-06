@@ -20,7 +20,11 @@ nav {text-align: center;
 a {
 	font-family: 'Roboto';
 	text-decoration: none;
+	color: white;
+
+
 }
+
 
 form {font-family: "Roboto";
 
@@ -34,6 +38,42 @@ table {
 
 tbody { font-family: "roboto";
 
+}
+
+
+.speciallink {
+	
+	color:;
+	
+}
+
+.signuptext {
+
+	
+	
+}
+
+.signupbox {
+	background: #3B77E0;
+	width: 699px;
+	height: 35px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+	margin: auto;
+	bottom: 500px;
+}
+
+.signupbox:hover {
+	background-color: #2162D4;
+	color: white;
+}
+
+.signup {
+	font-family: "Roboto";
+	color: white;
+	text-align: center;
+	font-size: 24px;
 }
 
 .textentry input {
@@ -85,33 +125,47 @@ position: relative;
 .basictext {
 	font-family: "Roboto";
 	margin-bottom: 0px;
+	color: black;
 }
 
 .navbox ul {
 	list-style-type: none;
-	height: auto;
-	width: auto;
-	text-align: center;
-	align-content: center;
-	align-self: center
+	overflow: hidden;
+	background-color: #F8CD33;
+	display: inline-block;
+    
 }
-
 
 .navbox li {
 	display: inline;
-	margin-right: 130px;
-	margin-left: 1px;
+	
+}
+
+
+.navbox li a {
+	display: inline;
+	color: white;
 	text-align: center;
-	align-content: center;
+	padding-right: 89px;
+	padding-left: 89px;
+	text-decoration: none;
+	padding-bottom: 0px;
+}
+
+li a:hover {
+	background-color: #C79D06;
+	color: white;
 }
 
 
 .navbox {
-	display: block;
 	background-color: #F8CD33;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	text-align: center;
 	align-content: center;
+	font-size: 50px;
+	margin: auto;
+	width: 955px;
 }
 
 
