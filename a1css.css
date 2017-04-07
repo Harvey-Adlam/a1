@@ -1,108 +1,256 @@
 @charset "utf-8";
 
+
+* {
+	margin: 0px;
+}
+
 body {
 	
-    background-image: url("sand.jpg");
-background-size: cover;
+	background-image: url("sand.jpg");
+	background-size: cover;
 
 }
 
 
 
+nav {
+	
+	text-align: center;
+	align-content: center;
+	font-family: 'Roboto';
+	margin: auto;
+	font-size: 16px;
+	padding-top: 4px;
 
-nav {text-align: center;
-	align-content: center; 
-	font-family: 'Roboto' ;
-	font-size: 16px; 
 }
 
 
 a {
+	
 	font-family: 'Roboto';
 	text-decoration: none;
 	color: white;
 
+}
+
+
+form {
+	
+	font-family: "Roboto";
 
 }
 
 
-form {font-family: "Roboto";
-
+input[type=text] {
+	
+	border: none;
+    border-bottom: 2px solid #1675D1;
+	
 }
+
+
+input[type=email] {
+	
+	border: none;
+    border-bottom: 2px solid #1675D1;
+	
+}
+
+caption {
+	
+	font-size: 25px;
+	text-shadow: 0px 0px 1px #FFFFFF;	
+	
+}
+
 
 table {
+	
 	font-family: "Roboto";
 	font-weight: normal;
 	font-size: medium;
-}
-
-tbody { font-family: "roboto";
-
-}
-
-
-.speciallink {
-	
-	color:;
+	padding-top: 14px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+	padding-left: 14px;
 	
 }
+
+
+tbody {
+	
+	font-family: "roboto";
+	padding-top: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+
+}
+
+
+
+footer {
+	font-family: "roboto";
+	background-color: #10569B;
+	bottom: 0px;
+	color: white;
+	position: absolute;
+	text-align: left;
+	left: 25%;
+}
+
+
+#jumpwoman {
+	
+	top: 7px;
+	position: relative;
+	left: 8px;
+	
+}
+
+
+#jumpwoman2 {
+	
+	position: relative;
+	right: -461px;
+	top: 6px;
+}
+
+
+#jumpingman {
+	position: relative;
+	bottom: -117px;
+	left: -125px;
+	padding-bottom: 10px;
+		
+}
+
+
+#spike {
+	
+	float: right;
+	padding-top: 22px;
+	padding-right: 22px;
+	padding-bottom: 22px;
+	padding-left: 22px;
+	position: relative;
+	top: -16px;
+	
+}
+
+
+#beachnet {
+	
+	position: relative;
+	left: 25%;
+	padding-bottom: 10px;
+	
+}
+
+
+.landingwelcome {
+	
+	font-family: "roboto";
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	text-decoration: underline;
+	background-color: #0D457C;
+	
+}
+
+
+.signupform {
+	
+	font-family: "roboto";
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+	
+ }
+
 
 .signuptext {
-
 	
+	text-align: center;
 	
 }
+
 
 .signupbox {
+	
 	background: #3B77E0;
-	width: 699px;
-	height: 35px;
-	text-align: center;
+	width: 174px;
+	height: 114px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	position: relative;
-	top: 75px;
 	margin: auto;
-	bottom: 500px;
+	top: -275px;
+	
 }
+
 
 .signupbox:hover {
-	background-color: #2162D4;
+	
+	background-color: #62a3ff;
 	color: white;
+	
 }
 
+
 .signup {
+	
 	font-family: "Roboto";
 	color: white;
 	text-align: center;
-	font-size: 24px;
+	font-size: 43px;
+	padding-top: 4px;
+	
 }
 
-.textentry input {
+
+.textentry {
 	
-	position: 100%
-	
-	
+	width: 170px;
 	
 }
+
 
 .toppagehead {
+	
 	font-family: 'Roboto';
 	font-size: 40px;
 	top: -28px;
+	padding-left: 70px;
+	color: white;	
 	
 }
 
+
 .toppagebox {
-	background: #FDFDFD;
+	
+	background-color: #004a9f;
 	width: 600px;
 	float: left;
+	position: relative;
+	top: 11px;
+	
 }
+
 
 .toppagebox img { 
-position: relative;
+	
+	position: relative;
 	top: 12px
+		
 }
 
+
 .volleyballbox {
+	
 	width: 1px;
 	height: 1px;
 	position: relative;
@@ -115,70 +263,117 @@ position: relative;
 
 }
 
+
 .infohead1 {
+	
 	font-family: "Roboto";
 	font-size: 25px;
 	text-shadow: 0px 0px 1px #FFFFFF;
 	padding-top: 3px;
-}
-
-.basictext {
-	font-family: "Roboto";
-	margin-bottom: 0px;
-	color: black;
-}
-
-.navbox ul {
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #F8CD33;
-	display: inline-block;
-    
-}
-
-.navbox li {
-	display: inline;
+	padding-left: 8px;
 	
 }
 
 
-.navbox li a {
-	display: inline;
-	color: white;
-	text-align: center;
-	padding-right: 89px;
-	padding-left: 89px;
-	text-decoration: none;
-	padding-bottom: 0px;
+.basictext {
+	
+	font-family: "Roboto";
+	margin-bottom: 0px;
+	color: black;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	
 }
 
+.active {
+	
+background: #C79D06;	
+	
+}
+
+
+.navbox ul {
+	
+  	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	text-align: center;
+	background-color: #F8CD33;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	
+	
+}
+
+
+.navbox li {
+	
+	display: inline-block;
+	font-size: 20px;
+	
+}
+
+
+
+.navbox li a {
+	
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 143px;
+	padding-left: 143px;
+	
+}
+
+
 li a:hover {
+	
 	background-color: #C79D06;
 	color: white;
+	
 }
 
 
 .navbox {
+	
 	background-color: #F8CD33;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	text-align: center;
-	align-content: center;
-	font-size: 50px;
-	margin: auto;
-	width: 955px;
+	padding-left: 0;
+	height: 0px;
+	top: 20px;
+	position: relative;
+	width: 100%;
+	
 }
 
 
 .centerbox {
-	width: 700px;
-	background: #3B77E0;
+	
+	width: 900px;
+	background-color: #1675d1;
 	margin: auto;
-	padding-top: 0px;
-	padding-right: 5px;
-	padding-bottom: 1px;
-	padding-left: 5px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-radius: 1px;
+	position: relative;
+	top: 100px;
+	float: none;
+	
 }
 
-.mapbox {padding: 10px}
+
+.mapbox {
+	padding: 10px;
+}
+
+
+.speciallink {
+	
+	color:white ;
+	
+}
